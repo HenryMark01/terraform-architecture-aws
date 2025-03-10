@@ -1,10 +1,11 @@
 # AWS Architecture Deployment with Terraform
 
 ## Overview
+This repository contains the Terraform code to deploy a high-availability, secure, and scalable AWS architecture.
 
-This repository contains the Terraform code to deploy a high-availability, secure, and scalable AWS architecture. 
-![](./screenshots-aws/architecture.png)
 ## Architecture Diagram
+![](./screenshots-aws/architecture.png)
+
 
 > ⚙️ **Key Components:**
 - VPC with public and private subnets in two Availability Zones.
@@ -17,3 +18,13 @@ This repository contains the Terraform code to deploy a high-availability, secur
 - Routing tables for public and private subnets.
 - IAM roles and security groups configured for all services.
 
+> ⚙️ **Snapshots:**
+- VPC Resource Map
+  ![](./screenshots-aws/vpc-overview.png)
+- PortForwarding to Private Server using AWS SSM Agent
+  ![](./screenshots-aws/ssm-server-portforwarding.png)
+- Private Server to MariDB connection
+  ![](./screenshots-aws/server-mariadb.png)
+- CloudFront Interface
+  ![](./screenshots-aws/cloudfront-nlb.png)
+        
