@@ -19,12 +19,16 @@ This repository contains the Terraform code to deploy a high-availability, secur
 - IAM roles and security groups configured for all services.
 
 > ⚙️ **Snapshots:**
+
 - VPC Resource Map
   ![](./screenshots-aws/vpc-overview.png)
+  
 - PortForwarding to Private Server using AWS SSM Agent
   ![](./screenshots-aws/ssm-server-portforwarding.png)
+  
 - Private Server to MariDB connection
   ![](./screenshots-aws/server-mariadb.png)
+  
 - CloudFront Interface
   ![](./screenshots-aws/cloudfront-nlb.png)
         
