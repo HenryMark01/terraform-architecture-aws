@@ -3,7 +3,7 @@
 ## Overview
 
 This repository contains the Terraform code to deploy a high-availability, secure, and scalable AWS architecture. 
-
+![](./screenshots-aws/architecture.png)
 ## Architecture Diagram
 
 > ⚙️ **Key Components:**
